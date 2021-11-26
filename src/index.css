@@ -1,13 +1,65 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.Img_Size {
+  font-size: 5rem;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.search_bar {
+  width: 82.5vw;
+  height: 3rem;
+}
+.search_bar_toggle {
+  width: 95.2vw;
+  height: 2rem;
+}
+
+@keyframes example {
+  from {
+    width: 16rem;
+  }
+  to {
+    width: 5rem;
+  }
+}
+@keyframes example2 {
+  from {
+    width: 5rem;
+  }
+  to {
+    width: 16rem;
+  }
+}
+
+.css2 {
+  width: 16rem;
+  height: 100%;
+  animation-name: example2;
+  animation-duration: 0.5s;
+}
+
+/* The element to apply the animation to */
+.css {
+  width: 3.5rem;
+  height: 100%;
+  animation-name: example;
+  animation-duration: 0.5s;
+}
+
+.View_btn {
+  height: 6rem;
+  width: 4rem;
+  margin-left: 10px;
+  margin-top: 20rem;
+  color: gray;
+}
+
+.data {
+  width: 83.3vw;
+}
+
+body {
+  margin: 0;
 }
