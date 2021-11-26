@@ -7,7 +7,7 @@ Chart.register(...registerables);
 
 export default function Card3(props) {
   return (
-    <div className="m-5 mr-0 rounded-xl w-6/12 h-6/12 bg-gray-200 shadow-lg">
+    <div className="m-5 mr-0 rounded-xl w-8/12 md:w-7/12 h-6/12 bg-gray-200 shadow-lg">
       <div className="flex border-b-2 border-gray-300  justify-between">
         <div className="font-bold  cursor-default p-2">{props.Heading}</div>
         <div className="bg-transparent text-sm p-3">
