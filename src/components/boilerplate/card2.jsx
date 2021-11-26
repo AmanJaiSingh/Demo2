@@ -25,7 +25,7 @@ const data = {
 
 export default function Card2(props) {
   return (
-    <div className="mt-5 mr-0 rounded-xl w-80 h-96 bg-gray-200 shadow-lg">
+    <div className="m-5 mr-0 rounded-xl w-80 h-96 bg-gray-200 shadow-lg">
       <div className="flex border-b-2 border-gray-300 justify-between">
         <div className="font-bold   cursor-default p-2">{props.Heading}</div>
         <div className="bg-transparent text-sm p-3">
